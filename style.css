@@ -1,0 +1,98 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    width: 1024px;
+    margin: 50px auto;
+}
+.header1{
+    height: 50px;
+    background-color: rgb(27, 40, 65);
+    position: relative;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 4px;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+}
+.ultopo{
+    margin: 0px;
+    padding: 0px;
+}
+.litopo{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 12px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+#portif{
+    padding: 25px 15px;
+    text-align: center;
+}
+#portif h1{
+    font-size: 45px;
+}
+.ulmodelo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.limodelo{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    padding: 12px;
+}
+.modelotitulo{
+    font-size: 20px;
+}
+.modelotexto{
+    letter-spacing: 2px;
+}
+#about{
+    padding: 100px;
+    color:rgb(255, 255, 255);
+    background-color: #003d52;
+    background-image: url(./imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#contact{
+    font-size: large;
+    color: rgb(91, 124, 184);
+    text-align: center;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+.googlemaps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+.googlemaps iframe{
+    width: 100%;
+}
+footer{
+    background: #1c3b50;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
